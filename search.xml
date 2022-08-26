@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>想入非非1</title>
+      <link href="/2022/08/26/%E6%83%B3%E5%85%A5%E9%9D%9E%E9%9D%9E1/"/>
+      <url>/2022/08/26/%E6%83%B3%E5%85%A5%E9%9D%9E%E9%9D%9E1/</url>
+      
+        <content type="html"><![CDATA[<div class="note success modern"><p>这是本系列的第一篇文章🎉🎉🎉。本系列文章主要记录了作者日常的思想，由于自我感觉内容是非分之事，故题名曰想入非非。</p></div><h1 id="洗洁精"><a href="#洗洁精" class="headerlink" title="洗洁精"></a>洗洁精</h1><p>前几天在洗碗的时候，看见洗洁精上打着一行字：<mark class="hl-label blue">食用级洗洁精</mark> 。我想，我靠，洗洁精已经能吃了？这也能作为卖点，商家着实是厉害，脑洞大得离谱。如此说来，以前的洗洁精都是不能吃的，吃下去估计会中毒，然后人就挂了。<br>继续往下推测，以前的人洗碗肯定要及其小心，不能残留一点洗洁精，不然下一个吃饭的人就会挂掉。从化学的角度看，没有一点残留这根本不可能，但当浓度小于一定的值时，就可以认为没有了。所以起码要把碗在海里泡个几天，洗洁精才足够稀，不至于把人吃挂掉。<br>但是查阅资料就能发现，以前的人谁也不会在海里洗碗，所以以前的碗里洗洁精含量肯定是超标的，另外洗洁精又不是食用级的，这样就能解释为什么以前的人都短命了。至于为什么彭祖活了800多岁，我认为可能和他吃饭从来不用碗有关。<br>现在想想，既然洗洁精都能吃了，那还洗来干啥，直接抹上去不就行了。可是据我观察，没有人抹了洗洁精后不洗的碗的，也没有拿洗洁精充饥的。所以洗洁精能不能吃，还有待考察。<br><code>附食用级洗洁精购买链接：</code><a href="https://www.jd.com/sptopic/15901d095c3ebcda4c642.html">https://www.jd.com/sptopic/15901d095c3ebcda4c642.html</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 想入非非 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 想入非非 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>一个git的小问题</title>
       <link href="/2022/08/26/%E4%B8%80%E4%B8%AAgit%E7%9A%84%E5%B0%8F%E9%97%AE%E9%A2%98/"/>
       <url>/2022/08/26/%E4%B8%80%E4%B8%AAgit%E7%9A%84%E5%B0%8F%E9%97%AE%E9%A2%98/</url>
@@ -29,7 +54,7 @@
       <link href="/2022/08/26/bilibili%E6%8F%92%E4%BB%B6%E6%B5%8B%E8%AF%95/"/>
       <url>/2022/08/26/bilibili%E6%8F%92%E4%BB%B6%E6%B5%8B%E8%AF%95/</url>
       
-        <content type="html"><![CDATA[<div class="note warning modern"><p>This article is use to test a plugin “bilibili tag”</p></div><style>.bbplayer{width: 100%; max-width: 850px; margin: auto}</style><div class="bbplayer"><iframe class="bbplayer" id="mmedia-yeiQQYQxJQXWRTdX" src="https://player.bilibili.com/player.html?bvid=BV1YW4y187mt&page=1&high_quality=1&danmaku=true" allowfullscreen="allowfullscreen" scrolling="no" border="0" frameborder="0" framespacing="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts allow-popups"></iframe></div><script> document.getElementById("mmedia-yeiQQYQxJQXWRTdX").style.height=document.getElementById("mmedia-yeiQQYQxJQXWRTdX").scrollWidth*0.76+"px";    window.onresize = function(){      document.getElementById("mmedia-yeiQQYQxJQXWRTdX").style.height=document.getElementById("mmedia-yeiQQYQxJQXWRTdX").scrollWidth*0.76+"px";    }; </script><div class="note primary modern"><p>你可以正常的看到bilibili视频，说明正在使用的浏览器支持该插件的运作方式；如果无法正常加载，请尝试更换浏览器或打开浏览器js开关。</p></div>]]></content>
+        <content type="html"><![CDATA[<div class="note warning modern"><p>This article is use to test a plugin “bilibili tag”</p></div><style>.bbplayer{width: 100%; max-width: 850px; margin: auto}</style><div class="bbplayer"><iframe class="bbplayer" id="mmedia-ICBNVnmXJPMxrzhg" src="https://player.bilibili.com/player.html?bvid=BV1YW4y187mt&page=1&high_quality=1&danmaku=true" allowfullscreen="allowfullscreen" scrolling="no" border="0" frameborder="0" framespacing="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts allow-popups"></iframe></div><script> document.getElementById("mmedia-ICBNVnmXJPMxrzhg").style.height=document.getElementById("mmedia-ICBNVnmXJPMxrzhg").scrollWidth*0.76+"px";    window.onresize = function(){      document.getElementById("mmedia-ICBNVnmXJPMxrzhg").style.height=document.getElementById("mmedia-ICBNVnmXJPMxrzhg").scrollWidth*0.76+"px";    }; </script><div class="note primary modern"><p>你可以正常的看到bilibili视频，说明正在使用的浏览器支持该插件的运作方式；如果无法正常加载，请尝试更换浏览器或打开浏览器js开关。</p></div>]]></content>
       
       
       
