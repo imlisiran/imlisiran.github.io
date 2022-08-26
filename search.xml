@@ -4,11 +4,32 @@
   
     
     <entry>
+      <title>一个git的小问题</title>
+      <link href="/2022/08/26/%E4%B8%80%E4%B8%AAgit%E7%9A%84%E5%B0%8F%E9%97%AE%E9%A2%98/"/>
+      <url>/2022/08/26/%E4%B8%80%E4%B8%AAgit%E7%9A%84%E5%B0%8F%E9%97%AE%E9%A2%98/</url>
+      
+        <content type="html"><![CDATA[<p>最近在执行命令<code>hexo d</code>的时候，git老是报如下的错：</p><img src="/2022/08/26/%E4%B8%80%E4%B8%AAgit%E7%9A%84%E5%B0%8F%E9%97%AE%E9%A2%98/0.png" class="" title="报错"><p>而且每次推送完成之后，都发现github page里的自定义域名没了，要再填一遍，麻烦得很。后来问了开哥，解决方案如下：</p><ul><li>首先执行命令<figure class="highlight plaintext"><figcaption><span>bush</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --global core.autocrlf false</span><br></pre></td></tr></table></figure>将自动换行替换关掉（git有时会将linux的lf换行转换成windows的crl换行）<br>然后看看github的根目录下有没有一个cname文件，没有的话创建一个，内容就是自己的域名。</li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> git </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>bilibili插件测试</title>
       <link href="/2022/08/26/bilibili%E6%8F%92%E4%BB%B6%E6%B5%8B%E8%AF%95/"/>
       <url>/2022/08/26/bilibili%E6%8F%92%E4%BB%B6%E6%B5%8B%E8%AF%95/</url>
       
-        <content type="html"><![CDATA[<div class="note warning modern"><p>This article is use to test a plugin “bilibili tag”</p></div><style>.bbplayer{width: 100%; max-width: 850px; margin: auto}</style><div class="bbplayer"><iframe class="bbplayer" id="mmedia-EwPcAFgcrZzQJSUi" src="https://player.bilibili.com/player.html?bvid=BV1YW4y187mt&page=1&high_quality=1&danmaku=true" allowfullscreen="allowfullscreen" scrolling="no" border="0" frameborder="0" framespacing="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts allow-popups"></iframe></div><script> document.getElementById("mmedia-EwPcAFgcrZzQJSUi").style.height=document.getElementById("mmedia-EwPcAFgcrZzQJSUi").scrollWidth*0.76+"px";    window.onresize = function(){      document.getElementById("mmedia-EwPcAFgcrZzQJSUi").style.height=document.getElementById("mmedia-EwPcAFgcrZzQJSUi").scrollWidth*0.76+"px";    }; </script><div class="note primary modern"><p>你可以正常的看到bilibili视频，说明正在使用的浏览器支持该插件的运作方式；如果无法正常加载，请尝试更换浏览器或打开浏览器js开关。</p></div>]]></content>
+        <content type="html"><![CDATA[<div class="note warning modern"><p>This article is use to test a plugin “bilibili tag”</p></div><style>.bbplayer{width: 100%; max-width: 850px; margin: auto}</style><div class="bbplayer"><iframe class="bbplayer" id="mmedia-kVKJVIvkQxopLkQy" src="https://player.bilibili.com/player.html?bvid=BV1YW4y187mt&page=1&high_quality=1&danmaku=true" allowfullscreen="allowfullscreen" scrolling="no" border="0" frameborder="0" framespacing="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts allow-popups"></iframe></div><script> document.getElementById("mmedia-kVKJVIvkQxopLkQy").style.height=document.getElementById("mmedia-kVKJVIvkQxopLkQy").scrollWidth*0.76+"px";    window.onresize = function(){      document.getElementById("mmedia-kVKJVIvkQxopLkQy").style.height=document.getElementById("mmedia-kVKJVIvkQxopLkQy").scrollWidth*0.76+"px";    }; </script><div class="note primary modern"><p>你可以正常的看到bilibili视频，说明正在使用的浏览器支持该插件的运作方式；如果无法正常加载，请尝试更换浏览器或打开浏览器js开关。</p></div>]]></content>
       
       
       
