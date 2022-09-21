@@ -4,13 +4,19 @@
   
     
     <entry>
-      <title>亡鸟</title>
-      <link href="/2022/08/29/%E4%BA%A1%E9%B8%9F/"/>
-      <url>/2022/08/29/%E4%BA%A1%E9%B8%9F/</url>
+      <title>自我陈述</title>
+      <link href="/2022/09/04/%E8%87%AA%E6%88%91%E9%99%88%E8%BF%B0/"/>
+      <url>/2022/09/04/%E8%87%AA%E6%88%91%E9%99%88%E8%BF%B0/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h1 id="提醒"><a href="#提醒" class="headerlink" title="提醒"></a>提醒</h1><div class="note success modern"><ul><li>由于markdown渲染器出了问题，空格无法正常显示，各位将就着看吧。（其实是自己菜，修不好）</li><li>可以在右下角齿轮处调整为阅读模式来获得最佳阅读体验。</li></ul></div><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>hello各位，我是李思然。上次线上班会虽然有自我介绍，但由于各种原因没法把个人情况讲清楚，所以想写一篇文章，让大家更加了解我，方便日后相处。<br>从来没写过这样的东西，思路混乱，我还是就此提笔（其实是用键盘的），希望能把自己介绍清楚。</p><h2 id="文化生，体育生"><a href="#文化生，体育生" class="headerlink" title="文化生，体育生"></a>文化生，体育生</h2>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> 关于 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -67,7 +73,7 @@
       <link href="/2022/08/26/bilibili%E6%8F%92%E4%BB%B6%E6%B5%8B%E8%AF%95/"/>
       <url>/2022/08/26/bilibili%E6%8F%92%E4%BB%B6%E6%B5%8B%E8%AF%95/</url>
       
-        <content type="html"><![CDATA[<div class="note warning modern"><p>This article is use to test a plugin “bilibili tag”</p></div><style>.bbplayer{width: 100%; max-width: 850px; margin: auto}</style><div class="bbplayer"><iframe class="bbplayer" id="mmedia-yFJZqVJllLbOPQOb" src="https://player.bilibili.com/player.html?bvid=BV1YW4y187mt&page=1&high_quality=1&danmaku=true" allowfullscreen="allowfullscreen" scrolling="no" border="0" frameborder="0" framespacing="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts allow-popups"></iframe></div><script> document.getElementById("mmedia-yFJZqVJllLbOPQOb").style.height=document.getElementById("mmedia-yFJZqVJllLbOPQOb").scrollWidth*0.76+"px";    window.onresize = function(){      document.getElementById("mmedia-yFJZqVJllLbOPQOb").style.height=document.getElementById("mmedia-yFJZqVJllLbOPQOb").scrollWidth*0.76+"px";    }; </script><div class="note primary modern"><p>你可以正常的看到bilibili视频，说明正在使用的浏览器支持该插件的运作方式；如果无法正常加载，请尝试更换浏览器或打开浏览器js开关。</p></div>]]></content>
+        <content type="html"><![CDATA[<div class="note warning modern"><p>This article is use to test a plugin “bilibili tag”</p></div><style>.bbplayer{width: 100%; max-width: 850px; margin: auto}</style><div class="bbplayer"><iframe class="bbplayer" id="mmedia-weZvngOGnVehNOLS" src="https://player.bilibili.com/player.html?bvid=BV1YW4y187mt&page=1&high_quality=1&danmaku=true" allowfullscreen="allowfullscreen" scrolling="no" border="0" frameborder="0" framespacing="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts allow-popups"></iframe></div><script> document.getElementById("mmedia-weZvngOGnVehNOLS").style.height=document.getElementById("mmedia-weZvngOGnVehNOLS").scrollWidth*0.76+"px";    window.onresize = function(){      document.getElementById("mmedia-weZvngOGnVehNOLS").style.height=document.getElementById("mmedia-weZvngOGnVehNOLS").scrollWidth*0.76+"px";    }; </script><div class="note primary modern"><p>你可以正常的看到bilibili视频，说明正在使用的浏览器支持该插件的运作方式；如果无法正常加载，请尝试更换浏览器或打开浏览器js开关。</p></div>]]></content>
       
       
       
@@ -125,9 +131,9 @@
       
         <tags>
             
-            <tag> 技术 </tag>
-            
             <tag> hexo </tag>
+            
+            <tag> 技术 </tag>
             
             <tag> 后端 </tag>
             
