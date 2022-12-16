@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>Chatgpt接入微信</title>
+      <link href="/2022/12/12/Chatgpt%E6%8E%A5%E5%85%A5%E5%BE%AE%E4%BF%A1/"/>
+      <url>/2022/12/12/Chatgpt%E6%8E%A5%E5%85%A5%E5%BE%AE%E4%BF%A1/</url>
+      
+        <content type="html"><![CDATA[<div class="note info simple"><p>写在最前面，要非常感谢我们的开哥同学，在过程中一直提供了大量帮助。他真的是一个值得信赖的机器人（<del>不是</del>)伙伴。</p></div><p>Chatgpt是什么不用多说了，最近火的要命。简单来讲，就是一个会深度学习的语言机器人，跟你交流聊天什么的（据说还有情感），总之，很牛逼一玩意儿。<br>结果玩了没两天，再次登录微信的时候，就这样了：<br><img src="https://s1.ax1x.com/2022/12/16/z71XLD.jpg" alt="1"><br><img src="https://s1.ax1x.com/2022/12/16/z71OsO.jpg" alt="2"><br>吓了我一跳，我向来是一个遵纪守法的人，什么时候会去拿微信干一些奇奇怪怪的事了？<br>后来想起肯定是和接入了Chatgpt有关系，就去github上的issues里逛了逛，结果一大堆国人朋友也反馈说自己微信被警告了，一下就安心了不少。<br>至于为什么会这样，我也不清楚，但肯定和以下几点有关：</p><ul><li>接口位于国外服务器，肯定是被微信发现了</li><li>模拟登录的方式有问题，被微信认为是“外挂”<br>总而言之，虚惊一场，差点微信都没了，幸好是第一次“犯错”以后要注意了。<br>这件事也告诉我们：<code>微信不喜欢机器人</code>（开哥语）<br>另附来自开哥的教程，有精力（<del>不怕死</del>）的可以去试试。<br><a href="https://blog.soulxyz.top/2022/12/11/ChatGPT-1.html">教程</a></li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 生活 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>简洁的Edge主页</title>
       <link href="/2022/12/05/%E7%AE%80%E6%B4%81%E7%9A%84Edge%E4%B8%BB%E9%A1%B5/"/>
       <url>/2022/12/05/%E7%AE%80%E6%B4%81%E7%9A%84Edge%E4%B8%BB%E9%A1%B5/</url>
@@ -130,7 +149,7 @@
       <link href="/2022/08/26/bilibili%E6%8F%92%E4%BB%B6%E6%B5%8B%E8%AF%95/"/>
       <url>/2022/08/26/bilibili%E6%8F%92%E4%BB%B6%E6%B5%8B%E8%AF%95/</url>
       
-        <content type="html"><![CDATA[<div class="note warning modern"><p>This article is use to test a plugin “bilibili tag”</p></div><style>.bbplayer{width: 100%; max-width: 850px; margin: auto}</style><div class="bbplayer"><iframe class="bbplayer" id="mmedia-bNzFVNRoUiOjFXDv" src="https://player.bilibili.com/player.html?bvid=BV1YW4y187mt&page=1&high_quality=1&danmaku=true" allowfullscreen="allowfullscreen" scrolling="no" border="0" frameborder="0" framespacing="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts allow-popups"></iframe></div><script> document.getElementById("mmedia-bNzFVNRoUiOjFXDv").style.height=document.getElementById("mmedia-bNzFVNRoUiOjFXDv").scrollWidth*0.76+"px";    window.onresize = function(){      document.getElementById("mmedia-bNzFVNRoUiOjFXDv").style.height=document.getElementById("mmedia-bNzFVNRoUiOjFXDv").scrollWidth*0.76+"px";    }; </script><div class="note primary modern"><p>你可以正常的看到bilibili视频，说明正在使用的浏览器支持该插件的运作方式；如果无法正常加载，请尝试更换浏览器或打开浏览器js开关。</p></div>]]></content>
+        <content type="html"><![CDATA[<div class="note warning modern"><p>This article is use to test a plugin “bilibili tag”</p></div><style>.bbplayer{width: 100%; max-width: 850px; margin: auto}</style><div class="bbplayer"><iframe class="bbplayer" id="mmedia-kLPxXWRXshAOcaKK" src="https://player.bilibili.com/player.html?bvid=BV1YW4y187mt&page=1&high_quality=1&danmaku=true" allowfullscreen="allowfullscreen" scrolling="no" border="0" frameborder="0" framespacing="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts allow-popups"></iframe></div><script> document.getElementById("mmedia-kLPxXWRXshAOcaKK").style.height=document.getElementById("mmedia-kLPxXWRXshAOcaKK").scrollWidth*0.76+"px";    window.onresize = function(){      document.getElementById("mmedia-kLPxXWRXshAOcaKK").style.height=document.getElementById("mmedia-kLPxXWRXshAOcaKK").scrollWidth*0.76+"px";    }; </script><div class="note primary modern"><p>你可以正常的看到bilibili视频，说明正在使用的浏览器支持该插件的运作方式；如果无法正常加载，请尝试更换浏览器或打开浏览器js开关。</p></div>]]></content>
       
       
       
@@ -211,11 +230,11 @@
       
         <tags>
             
+            <tag> 想入非非 </tag>
+            
             <tag> 读书笔记 </tag>
             
             <tag> 感悟 </tag>
-            
-            <tag> 想入非非 </tag>
             
         </tags>
       
@@ -228,7 +247,7 @@
       <link href="/2022/08/05/%E6%82%B2%E4%BC%A4%E4%B8%8E%E9%98%B3%E5%85%89/"/>
       <url>/2022/08/05/%E6%82%B2%E4%BC%A4%E4%B8%8E%E9%98%B3%E5%85%89/</url>
       
-        <content type="html"><![CDATA[<p>&amp;nbsp;&amp;nbsp;卡耐基在《人性的弱点》里说：<strong>不要让悲伤挡住了你的阳光。</strong>这句话的出发点是好的，鼓励我们要积极一点，但他的观点我并不完全认同。老卡先生想表达的是：无论遇到什么挫折与失败，都要保持良好的情绪和积极的心态，努力保持愉快然后解决问题。这个想法很棒，但问题在于这个世界上没有真正的乐天派，（那些在困境中保持乐观的情况看起来多少优点强颜欢笑），谁都会有悲伤、失落的时候，只不过有些人将其表露出来，有些人则将其深埋于心，仅此而已。</p><img src="/2022/08/05/%E6%82%B2%E4%BC%A4%E4%B8%8E%E9%98%B3%E5%85%89/1.jpg" class="" title="人性的弱点"><p>&amp;nbsp;&amp;nbsp;我认为，悲伤更像是一种休息，是身体发出劳累的信号，它在告诉我们————是时候该停一停了。想象一下，如果一个社会里人们都每天都元气满满，每时每刻都积极得要命，那也是病态的、不健康的。这个世界之所以在曲折之中进步，很大一部分原因是既有乐观的人，也有悲观的人。其中，<mark class="hl-label blue">乐观的人负责前进，而悲观的人负责解决前进路上遇到的问题。</mark> </p><img src="/2022/08/05/%E6%82%B2%E4%BC%A4%E4%B8%8E%E9%98%B3%E5%85%89/2.jpg" class="" title="no tittle"><p>&amp;nbsp;&amp;nbsp;老卡先生观点的核心是：不要让挫折影响你积极的心态。而我是这样想的：要让挫折适当影响一下积极的心态，因为人在悲观、消极的情绪下更容易冷静下来，思考到底该如何解决问题；反而大多数时候，人们总是把鲁莽和积极混淆。<br>&amp;nbsp;&amp;nbsp;虽然阳光很美且有益，但过量的暴晒，会把人晒坏的。所以，<strong>让悲伤挡住一些阳光。</strong></p>]]></content>
+        <content type="html"><![CDATA[<p>&amp;nbsp;&amp;nbsp;卡耐基在《人性的弱点》里说：<strong>不要让悲伤挡住了你的阳光。</strong>这句话的出发点是好的，鼓励我们要积极一点，但他的观点我并不完全认同。老卡先生想表达的是：无论遇到什么挫折与失败，都要保持良好的情绪和积极的心态，努力保持愉快然后解决问题。这个想法很棒，但问题在于这个世界上没有真正的乐天派，（那些在困境中保持乐观的情况看起来多少优点强颜欢笑），谁都会有悲伤、失落的时候，只不过有些人将其表露出来，有些人则将其深埋于心，仅此而已。</p><img src="/2022/08/05/%E6%82%B2%E4%BC%A4%E4%B8%8E%E9%98%B3%E5%85%89/1.jpg" class="" title="人性的弱点"><p>&amp;nbsp;&amp;nbsp;我认为，悲伤更像是一种休息，是身体发出劳累的信号，它在告诉我们————是时候该停一停了。想象一下，如果一个社会里人们都每天都元气满满，每时每刻都积极得要命，那也是病态的、不健康的。这个世界之所以在曲折之中进步，很大一部分原因是既有乐观的人，也有悲观的人。其中，<mark class="hl-label blue">乐观的人负责前进，而悲观的人负责解决前进路上遇到的问题。</mark> </p><img src="/2022/08/05/%E6%82%B2%E4%BC%A4%E4%B8%8E%E9%98%B3%E5%85%89/2.jpg" class="" title="no tittle"><p>&amp;nbsp;&amp;nbsp;老卡先生观点的核心是：不要让挫折影响你积极的心态。而我是这样想的：要让挫折适当影响一下积极的心态，因为人在悲观、消极的情绪下更容易冷静下来，思考到底该如何解决问题；反而大多数时候，人们总是把鲁莽和积极混淆。<br>&amp;nbsp;&amp;nbsp;虽然阳光很美且有益，但过量的暴晒，会把人晒坏的。所以，<strong>让悲伤挡住一些阳光。</strong><br><img src="http://siran.test.upcdn.net/0.gif" alt="0"></p>]]></content>
       
       
       <categories>
