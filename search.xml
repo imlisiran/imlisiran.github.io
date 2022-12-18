@@ -8,7 +8,7 @@
       <link href="/2022/12/18/%E5%A5%97%E5%A8%83%E9%A1%B5%E9%9D%A2/"/>
       <url>/2022/12/18/%E5%A5%97%E5%A8%83%E9%A1%B5%E9%9D%A2/</url>
       
-        <content type="html"><![CDATA[<p>今天忽然发现一个有趣的东西，主题由自带的页面嵌套功能，那岂不是可以套娃？</p><iframe src="https://2am.top/" width="100%" height="300px" frameborder="0" loading="lazy" allowfullscreen></iframe><p>我在自己的博客里访问自己的博客，在自己访问自己的博客里的博客访问自己的博客，在自己访问自己的博客里的访问的博客里的访问的博客里访问自己的博客…….</p>]]></content>
+        <content type="html"><![CDATA[<p>今天忽然发现一个有趣的东西，主题由自带的页面嵌套功能，那岂不是可以套娃？</p><iframe src="https://2am.top/" width="100%" height="900px" frameborder="0" loading="lazy" allowfullscreen></iframe><p>我在自己的博客里访问自己的博客，在自己访问自己的博客里的博客访问自己的博客，在自己访问自己的博客里的访问的博客里的访问的博客里访问自己的博客…….</p>]]></content>
       
       
       
@@ -168,7 +168,7 @@
       <link href="/2022/08/26/bilibili%E6%8F%92%E4%BB%B6%E6%B5%8B%E8%AF%95/"/>
       <url>/2022/08/26/bilibili%E6%8F%92%E4%BB%B6%E6%B5%8B%E8%AF%95/</url>
       
-        <content type="html"><![CDATA[<div class="note warning modern"><p>This article is use to test a plugin “bilibili tag”</p></div><style>.bbplayer{width: 100%; max-width: 850px; margin: auto}</style><div class="bbplayer"><iframe class="bbplayer" id="mmedia-BARnRBDZNiXmeCRI" src="https://player.bilibili.com/player.html?bvid=BV1YW4y187mt&page=1&high_quality=1&danmaku=true" allowfullscreen="allowfullscreen" scrolling="no" border="0" frameborder="0" framespacing="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts allow-popups"></iframe></div><script> document.getElementById("mmedia-BARnRBDZNiXmeCRI").style.height=document.getElementById("mmedia-BARnRBDZNiXmeCRI").scrollWidth*0.76+"px";    window.onresize = function(){      document.getElementById("mmedia-BARnRBDZNiXmeCRI").style.height=document.getElementById("mmedia-BARnRBDZNiXmeCRI").scrollWidth*0.76+"px";    }; </script><div class="note primary modern"><p>你可以正常的看到bilibili视频，说明正在使用的浏览器支持该插件的运作方式；如果无法正常加载，请尝试更换浏览器或打开浏览器js开关。</p></div>]]></content>
+        <content type="html"><![CDATA[<div class="note warning modern"><p>This article is use to test a plugin “bilibili tag”</p></div><style>.bbplayer{width: 100%; max-width: 850px; margin: auto}</style><div class="bbplayer"><iframe class="bbplayer" id="mmedia-SmDYpUEThDrTBCew" src="https://player.bilibili.com/player.html?bvid=BV1YW4y187mt&page=1&high_quality=1&danmaku=true" allowfullscreen="allowfullscreen" scrolling="no" border="0" frameborder="0" framespacing="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts allow-popups"></iframe></div><script> document.getElementById("mmedia-SmDYpUEThDrTBCew").style.height=document.getElementById("mmedia-SmDYpUEThDrTBCew").scrollWidth*0.76+"px";    window.onresize = function(){      document.getElementById("mmedia-SmDYpUEThDrTBCew").style.height=document.getElementById("mmedia-SmDYpUEThDrTBCew").scrollWidth*0.76+"px";    }; </script><div class="note primary modern"><p>你可以正常的看到bilibili视频，说明正在使用的浏览器支持该插件的运作方式；如果无法正常加载，请尝试更换浏览器或打开浏览器js开关。</p></div>]]></content>
       
       
       
