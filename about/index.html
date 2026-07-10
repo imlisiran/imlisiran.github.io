@@ -1,0 +1,754 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta name="theme-color" content="#1a1a1a"><meta name="msapplication-navbutton-color" content="#1a1a1a"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><title>未来的回忆</title><script>(function() {
+  // 尽早应用暗色模式，防止闪烁
+  var savedDarkMode = localStorage.getItem('darkMode') === 'true';
+  if (savedDarkMode) {
+    document.documentElement.classList.add('dark-mode');
+  }
+})();
+</script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=Playfair+Display:wght@400;500;600;700&amp;family=Fira+Code:wght@400;500&amp;display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"><script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script><link rel="icon" href="/null">
+<link rel="stylesheet" href="/css/main.css">
+
+<link rel="stylesheet" href="/css/tags.css">
+
+<link rel="stylesheet" href="/css/categories.css">
+
+<link rel="stylesheet" href="/css/categories-accordion.css">
+
+<link rel="stylesheet" href="/css/highlight.css">
+
+<link rel="stylesheet" href="/css/toc.css">
+
+<link rel="stylesheet" href="/css/image-zoom.css">
+
+<link rel="stylesheet" href="/css/share.css">
+
+<link rel="stylesheet" href="/css/mobile-nav.css">
+
+<link rel="stylesheet" href="/css/search.css">
+
+<link rel="stylesheet" href="/css/scrollbar.css">
+
+<link rel="stylesheet" href="/css/timeline.css">
+
+<link rel="stylesheet" href="/css/animations.css">
+
+<link rel="stylesheet" href="/css/ai-theme.css">
+
+<link rel="stylesheet" href="/css/loading-animation.css">
+
+<link rel="stylesheet" href="/css/article-modal.css">
+<!-- 条件加载关于页面样式-->
+<link rel="stylesheet" href="/css/about.css">
+<style>:root {
+  --primary-color: #1a1a1a;
+  --secondary-color: #666666;
+  --accent-color: #ff6b6b;
+  --background-color: #ffffff;
+  --text-color: #333333;
+  --overlay-color: rgba(0, 0, 0, 0.7);
+  --tag-background-color: #ffffff;
+  --card-background-color: #ffffff;
+}
+</style><link rel="stylesheet" href="https://cdn1.tianli0.top/gh/qxchuckle/Post-Summary-AI/chuckle-post-ai.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"><meta name="generator" content="Hexo 7.3.0"></head><body><div id="app"><header class="header navbar-bubble"><nav class="nav"><div class="nav-container"><div class="nav-logo"><a href="/"><span class="nav-title">未来的回忆</span></a></div><div class="nav-menu"><a class="nav-item" target="_blank" rel="noopener" href="https://img.2am.top">相册</a><a class="nav-item active" href="/about/">关于</a><div class="nav-item has-submenu"><span class="nav-link">文章</span><div class="submenu"><a class="submenu-item" href="/archives/">归档</a><a class="submenu-item" href="/categories/">分类</a><a class="submenu-item" href="/tags/">标签</a></div></div><div class="nav-item has-submenu"><span class="nav-link">网站</span><div class="submenu"><a class="submenu-item" target="_blank" rel="noopener" href="https://class8.top">高中纪念站</a></div></div><a class="nav-item" href="/link/">友链</a><!-- 搜索按钮--><div class="search-toggle"><i class="fas fa-search"></i></div></div><div class="nav-toggle"><span></span><span></span><span></span></div></div></nav></header><div class="search-overlay"><div class="search-container"><div class="search-form"><input class="search-input" type="text" placeholder="搜索文章..."/><div class="search-close">×</div></div><div class="search-results"></div></div></div><main class="main"><main class="about-page"><div class="about-container"><div class="about-header"><div class="about-avatar"><img src="/images/0.gif" alt="个人头像"/></div><h1 class="about-name">然</h1><p class="about-bio">人生而自由，却无往不在枷锁之中</p></div><div class="about-details"><div class="intro-banner"><img src="images/1.jpg" alt="Banner Image"/></div><div class="about-section"><h2>关于我</h2><div class="bio-content"><p>我是LSR，家乡广州，目前是一名大四学生，就读于中北大学信息对抗技术专业</p><p>「 I N F J 」 —— 这个世界这样概括我</p><p>绝大多数情况下，我一人行事</p><p>一方面，我渴望社交，另一方面，社交于我而言是极大的精神消耗</p><p>广义上来看，我是个矛盾的人</p></div></div><div class="about-section"><h2>兴趣点</h2><div class="interest-cloud"><span class="tag">摄影</span><span class="tag">羽毛球</span><span class="tag">油画</span><span class="tag">设计</span><span class="tag">代码</span><span class="tag">哲学</span><span class="tag">小说</span><span class="tag">散文</span><span class="tag">生活</span><span class="tag">艺术</span><span class="tag">运动</span><span class="tag">创造</span><span class="tag">游戏</span><span class="tag">阅读</span><span class="tag">骑行</span><span class="tag">爬山</span><span class="tag">长跑</span><span class="tag">Blender</span><span class="tag">游泳</span><span class="tag">音乐</span></div></div><div class="about-section"><h2>在做项目</h2><div class="projects-container"><a class="project-card" href="https://github.com/forever218/Hexohub" target="_blank" data-repo="forever218/Hexohub"><div class="project-icon"><i class="fab fa-github"></i></div><div class="project-content"><h3 class="project-title">Hexohub</h3><p class="project-desc">开源Hexo图形化界面程序</p><div class="project-stats"><span class="stat-item"><i class="fas fa-star"></i><span class="stat-value">-</span></span><span class="stat-item"><i class="fas fa-code-branch"></i><span class="stat-value">-</span></span></div></div></a><a class="project-card" href="https://github.com/forever218/hexo-theme-magzine" target="_blank" data-repo="forever218/hexo-theme-magzine"><div class="project-icon"><i class="fab fa-github"></i></div><div class="project-content"><h3 class="project-title">Magzine静态博客主题</h3><p class="project-desc">当前博客正在使用的主题</p><div class="project-stats"><span class="stat-item"><i class="fas fa-star"></i><span class="stat-value">-</span></span><span class="stat-item"><i class="fas fa-code-branch"></i><span class="stat-value">-</span></span></div></div></a><a class="project-card" href="https://github.com/forever218/YOLO-Drone-Detection" target="_blank" data-repo="forever218/YOLO-Drone-Detection"><div class="project-icon"><i class="fab fa-github"></i></div><div class="project-content"><h3 class="project-title">YOLO-Drone-Detection</h3><p class="project-desc">无人机检测模型mAP@0.5-96%，mAP@0.5:0.95-74%（持续优化）</p><div class="project-stats"><span class="stat-item"><i class="fas fa-star"></i><span class="stat-value">-</span></span><span class="stat-item"><i class="fas fa-code-branch"></i><span class="stat-value">-</span></span></div></div></a></div></div><div class="about-section"><h2>关于本站</h2><div class="bio-content"><p>我书写的所有事，在未来终会成为回忆</p><p>信息爆炸的当下，博客是一个难得的静谧角落</p><p>我在这里记录生活、技术、思考与创作</p></div><div class="bio-content"><p>本站不使用<a target="_blank" rel="noopener" href="https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Guides/Cookies"style="color: #0000ff;">Cookies</a></p><p>除了评论区会使用QQ号加载头像、获取评论回复外，本站不使用任何第三方服务</p><p>本站不会追踪访客信息</p><p>本站为非盈利性质，不会出现任何广告</p><p>本站采用<a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"style="color: #0000ff;">BY-NC-SA-4.0</a>协议许可</p><p>本站已在管局备案<a target="_blank" rel="noopener" href="https://beian.miit.gov.cn/"style="color: #0000ff;">粤ICP备2022157092号</a></p></div></div><div class="about-section"><h2>联系</h2><div class="contact-info"><p>尽管我有少量的SNS账号，遗憾的是，我极少使用他们，邮箱是联系我的最佳方式。    </p><a class="contact-item" href="mailto:3316703158@qq.com"><i class="fas fa-envelope"></i><div class="contact-detail"><div class="contact-label">邮箱</div><div class="contact-value">3316703158@qq.com</div></div></a><a class="contact-item" target="_blank" rel="noopener" href="https://github.com/forever218"><i class="fab fa-github"></i><div class="contact-detail"><div class="contact-label">GitHub</div><div class="contact-value">forever218</div></div></a><a class="contact-item" target="_blank" rel="noopener" href="https://space.bilibili.com/82657269"><i class="fab fa-bilibili"></i><div class="contact-detail"><div class="contact-label">哔哩哔哩</div><div class="contact-value">凛冬亦夏</div></div></a></div></div></div></div></main><!-- 添加交互式卡片样式--><style>.interests-showcase {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin: 40px 0;
+  position: relative;
+}
+
+.interest-card {
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  cursor: pointer;
+  z-index: 1;
+}
+
+.interest-card:hover {
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  z-index: 10;
+}
+
+// 不同卡片的大小
+.interest-life {
+  width: 320px;
+  height: 380px;
+}
+
+.interest-art {
+  width: 280px;
+  height: 340px;
+}
+
+.interest-sport {
+  width: 300px;
+  height: 360px;
+}
+
+.interest-create {
+  width: 340px;
+  height: 400px;
+}
+
+// 卡片背景
+.card-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  transition: all 0.5s ease;
+  z-index: -1;
+}
+
+.interest-life .card-bg {
+  background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+}
+
+.interest-art .card-bg {
+  background: linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+
+.interest-sport .card-bg {
+  background: linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+.interest-create .card-bg {
+  background: linear-gradient(135deg, #d4fc79 0%, #96e6a1 100%);
+}
+
+// 卡片内容
+.card-content {
+  padding: 30px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #fff;
+  position: relative;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+  transition: all 0.3s ease;
+}
+
+.interest-card:hover .card-content {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.card-content h3 {
+  font-size: 2.5rem;
+  margin: 0 0 15px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card-description {
+  margin-bottom: 20px;
+}
+
+.card-description p {
+  font-size: 1.1rem;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.card-icon {
+  font-size: 2rem;
+  margin-top: 20px;
+  align-self: flex-end;
+}
+
+.card-hover-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 30px;
+  background: rgba(0, 0, 0, 0.7);
+  transform: translateY(100%);
+  transition: transform 0.3s ease;
+}
+
+.interest-card:hover .card-hover-content {
+  transform: translateY(0);
+}
+
+.card-hover-content p {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+// 其他部分样式
+.about-details {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.about-section {
+  margin-bottom: 30px;
+}
+
+.about-section h2 {
+  color: #333;
+  margin-bottom: 20px;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.about-section h2::after,
+.about-section h2::before {
+  content: none !important;
+  display: none !important;
+  width: 0 !important;
+  background: none !important;
+}
+
+/* === 新增 Banner 样式 === */
+.intro-banner {
+  width: 100%;
+  height: 400px; /* 你可以根据图片比例调整这个高度 */
+  border-radius: 15px; /* 保持与下方卡片一致的圆角 */
+  overflow: hidden;
+  margin-bottom: 40px; /* 与下方文字拉开距离 */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* 统一阴影风格 */
+  position: relative;
+  z-index: 1;
+}
+
+.intro-banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* 保证图片填满且不变形 */
+  object-position: center;
+  transition: transform 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275); /* 增加有张力的缓动效果 */
+}
+
+/* 鼠标悬停时的微交互，增加呼吸感 */
+.intro-banner:hover img {
+  transform: scale(1.03);
+}
+
+.intro-banner:hover {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* 移动端适配 */
+@media (max-width: 768px) {
+  .intro-banner {
+    height: 200px; /* 手机端高度减小 */
+    border-radius: 10px;
+  }
+}
+
+.profile-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.profile-item {
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.profile-label {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.profile-value {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.bio-content {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  line-height: 1.6;
+}
+
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #333;
+  transition: all 0.3s ease;
+  flex: 1;
+  min-width: 200px;
+}
+
+.contact-item:hover {
+  background: #f0f0f0;
+  transform: translateY(-3px);
+}
+
+.contact-item i {
+  font-size: 1.5rem;
+  margin-right: 15px;
+  color: #555;
+}
+
+.contact-detail {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-label {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.contact-value {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.about-quote {
+  max-width: 800px;
+  margin: 40px auto 20px;
+  text-align: center;
+}
+
+.about-quote blockquote {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #666;
+  margin: 0;
+  padding: 0 20px;
+  position: relative;
+}
+
+.about-quote blockquote:before {
+  content: '"';
+  font-size: 3rem;
+  color: #ddd;
+  position: absolute;
+  left: -10px;
+  top: -10px;
+}
+
+.about-quote blockquote:after {
+  content: '"';
+  font-size: 3rem;
+  color: #ddd;
+  position: absolute;
+  right: -10px;
+  bottom: -30px;
+}
+
+// 响应式设计
+@media (max-width: 768px) {
+  .interests-showcase {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .interest-card {
+    width: 100% !important;
+    max-width: 350px;
+    height: 300px !important;
+  }
+
+  .profile-info {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-info {
+    flex-direction: column;
+  }
+}
+
+/* === “在做”项目列表样式 === */
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* 卡片之间的垂直间距 */
+}
+
+.project-card {
+  display: flex;
+  align-items: center;
+  background: #f9f9f9;
+  padding: 20px 25px;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  border: 1px solid transparent; /* 预留边框位置防止抖动 */
+  position: relative;
+  overflow: hidden;
+}
+
+/* 悬停时的整体卡片效果：上浮 + 阴影 + 变白 */
+.project-card:hover {
+  background: #fff;
+  transform: translateY(-3px) scale(1.01);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  border-color: #eee;
+}
+
+/* 左侧图标容器 */
+.project-icon {
+  flex-shrink: 0; /* 防止图标被压缩 */
+  width: 48px;
+  height: 48px;
+  background: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  transition: all 0.4s ease;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+/* 悬停时图标的特效：旋转360度 + 反色 */
+.project-card:hover .project-icon {
+  transform: rotate(360deg);
+  background: #333;
+  color: #fff;
+}
+
+.project-content {
+  flex: 1; /* 占满剩余空间 */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.project-title {
+  margin: 0 0 6px 0;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.project-desc {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #666;
+  line-height: 1.5;
+}
+
+/* 移动端适配 */
+@media (max-width: 768px) {
+  .project-card {
+    padding: 15px;
+  }
+  .project-icon {
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+    margin-right: 15px;
+  }
+  .project-title {
+    font-size: 1rem;
+  }
+  .project-desc {
+    font-size: 0.85rem;
+  }
+}
+
+/* === 兴趣云样式 (纯文字版) === */
+.interest-cloud {
+  background: #f9f9f9; /* 保持外层容器背景，与上方“关于我”区域统一 */
+  padding: 30px;
+  border-radius: 8px;
+  display: flex;
+  flex-wrap: wrap;       /* 允许自动换行 */
+  justify-content: center; /* 整体居中 */
+  align-items: baseline;   /* 基线对齐，让不同大小的文字看起来更自然 */
+  gap: 15px 25px;          /*行间距15px，字间距25px */
+  line-height: 1.5;
+}
+
+.tag {
+  display: inline-block;
+  background: transparent; /* 去掉背景 */
+  padding: 0;              /* 去掉内边距 */
+  border-radius: 0;        /* 去掉圆角 */
+  box-shadow: none;   
+  border: none;            /* 去掉边框 */
+  
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: bold;       /* 加粗一点让纯文字更有质感 */
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  cursor: default;
+  user-select: none;
+  
+  /* 默认颜色，防止漏网之鱼 */
+  color: #555; 
+}
+
+.tag:hover {
+  background: none !important;          /* 强制去掉背景 */
+  background-color: transparent !important; /* 双重保险 */
+  border: none !important;              /* 如果有边框也去掉 */
+  
+  transform: scale(1.2) rotate(-2deg);  /* 保持原本的放大倾斜效果 */
+  text-shadow: 2px 4px 6px rgba(0,0,0,0.2); /* 保持文字阴影 */
+  z-index: 10;
+}
+
+
+/* === 随机大小算法 (让文字大小错落) === */
+.tag:nth-child(3n+1) { font-size: 1.5rem; opacity: 1; }
+.tag:nth-child(4n+2) { font-size: 1.1rem; opacity: 0.8; font-weight: normal; }
+.tag:nth-child(5n+3) { font-size: 1.8rem; opacity: 1; }
+.tag:nth-child(7n)   { font-size: 0.9rem; opacity: 0.7; letter-spacing: 1px;}
+.tag:nth-child(2n)   { font-size: 1.3rem; }
+
+/* === 随机颜色算法 (高饱和度文字) === */
+
+/* 靛青/深蓝 */
+.tag:nth-child(5n+1) { color: #3949ab; }
+
+/* 森林绿 */
+.tag:nth-child(5n+2) { color: #2e7d32; }
+
+/* 砖红/绯红 */
+.tag:nth-child(5n+3) { color: #c62828; }
+
+/* 深紫 */
+.tag:nth-child(5n+4) { color: #6a1b9a; }
+
+/* 焦糖/深橙 */
+.tag:nth-child(5n+5) { color: #ef6c00; }
+
+/* 偶尔穿插的高级灰，平衡视觉 */
+.tag:nth-child(8n)   { color: #607d8b; }
+
+/* =========================================
+   === Dark Mode / 深色模式适配 (最终修复版) ===
+   ========================================= */
+
+/* 1. 全局背景设为深色 */
+html.dark-mode .about-page,
+body.dark-mode .about-page,
+html.dark-mode .about-container {
+  background-color: #121212 !important;
+  color: #e0e0e0 !important;
+}
+
+/* 2.1 修复外层容器背景 (你提到的点) */
+/* 将包裹标题和卡片的容器背景去掉，避免出现白色大方块 */
+html.dark-mode .about-section,
+html.dark-mode .about-details {
+  background: transparent !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+/* 2.2 强制将所有“内部内容卡片”变黑 */
+html.dark-mode .bio-content,       /* “关于我”内容 */
+html.dark-mode .interest-cloud,    /* “兴趣点”内容 */
+html.dark-mode .project-card,      /* “在做”项目卡片 */
+html.dark-mode .contact-item,      /* “联系”按钮 */
+html.dark-mode .intro-banner,      /* 顶部图片容器 */
+html.dark-mode .profile-item       /* 其他 */
+{
+  background: #1e1e1e !important;       /* 深灰色卡片背景 */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4) !important;
+  border: 1px solid #333 !important;    /* 微弱边框增强轮廓 */
+  color: #ccc !important;
+}
+
+/* 3. 标题文字颜色 */
+html.dark-mode h1,
+html.dark-mode h2,
+html.dark-mode h3,
+html.dark-mode .about-name,
+html.dark-mode .project-title,
+html.dark-mode .contact-value {
+  color: #f0f0f0 !important;
+}
+
+/* 4. 描述与副标题文字 */
+html.dark-mode p,
+html.dark-mode .about-bio,
+html.dark-mode .profile-label,
+html.dark-mode .contact-label,
+html.dark-mode .project-desc {
+  color: #a0a0a0 !important;
+}
+
+/* 5. 链接颜色优化 */
+html.dark-mode .bio-content a {
+  color: #64b5f6 !important;
+}
+
+/* 6. 兴趣云 Tag 适配 */
+html.dark-mode .tag {
+  filter: brightness(1.5) saturate(0.8);
+  color: inherit; 
+}
+
+/* 7. 交互效果适配 */
+html.dark-mode .project-card:hover,
+html.dark-mode .contact-item:hover {
+  background: #2d2d2d !important;
+  border-color: #555 !important;
+}
+
+/* 图标适配 */
+html.dark-mode .contact-item i,
+html.dark-mode .project-icon {
+  color: #ccc !important;
+  background-color: #333 !important;
+}
+
+html.dark-mode .project-card:hover .project-icon {
+  background: #fff !important;
+  color: #000 !important;
+}
+
+/* === 项目统计数据样式 (Star & Fork) === */
+.project-stats {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+  font-size: 0.85rem;
+  color: #888; /* 默认浅灰 */
+}
+
+.stat-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.stat-item i {
+  font-size: 0.8rem;
+}
+
+/* 只有 Star 图标有点颜色，增加活力 */
+.stat-item .fa-star {
+  color: #f1c40f; /* 金黄色 */
+}
+
+.stat-item .fa-code-branch {
+  color: #888;
+}
+
+/* Dark Mode 适配 */
+html.dark-mode .project-stats {
+  color: #777 !important;
+}
+
+html.dark-mode .stat-item .fa-code-branch {
+  color: #777 !important;
+}
+/* 保持暗黑模式下 Star 依然是金色的，或者稍微暗一点 */
+html.dark-mode .stat-item .fa-star {
+  color: #d4ac0d !important; 
+}
+
+
+</style><script>document.addEventListener('DOMContentLoaded', () => {
+  const cards = document.querySelectorAll('.project-card[data-repo]');
+  
+  cards.forEach(card => {
+    const repo = card.getAttribute('data-repo');
+    const starSpan = card.querySelector('.fa-star + .stat-value');
+    const forkSpan = card.querySelector('.fa-code-branch + .stat-value');
+    
+    // 使用 GitHub API 获取数据
+    fetch(`https://api.github.com/repos/${repo}`)
+      .then(response => {
+        if (!response.ok) throw new Error('Network response was not ok');
+        return response.json();
+      })
+      .then(data => {
+        // 更新 DOM
+        if(starSpan) starSpan.textContent = data.stargazers_count;
+        if(forkSpan) forkSpan.textContent = data.forks_count;
+      })
+      .catch(error => {
+        console.error('Fetching GitHub data failed:', error);
+        // 如果获取失败（比如填错了 repo 或者 API 限制），显示 0 或者保持 -
+        if(starSpan) starSpan.textContent = 0;
+        if(forkSpan) forkSpan.textContent = 0;
+      });
+  });
+});</script></main><footer class="footer"><div class="footer-bottom"><div class="footer-copyright">© 2025 李思然. All rights reserved.</div><!-- Footer centered image with link--><div class="footer-badges"><a target="_blank" rel="noopener" href="https://hexo.io/" title="博客框架为Hexo_v5.4.0"><img src="https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Frame-Hexo.svg" alt="博客框架为Hexo_v5.4.0"/></a><a target="_blank" rel="noopener" href="https://beian.miit.gov.cn/" title="本站已在粤网管局备案"><img src="https://img.shields.io/badge/粤ICP备-2022157092号-yellow.svg?logo=data:image/png;base64,UklGRjgCAABXRUJQVlA4WAoAAAAQAAAAEwAAEwAAQUxQSJgAAAABgKpt//nn+RvZ89KuNVcbR6C6pBNYW12zl61oO23Vtu2/v59TiIgJILircnOrKgLlzL4Pj8fj+RkuUTB7FE0hIuZVxs1B4r88yudxAakeYQIQsSiZiYVaj7ge2mS9cCbbgTfZIYzJmmFVtgQ/slsolaUB5Y9qtzkAmRdqN0EmPMKBAGvjq8pRnTYAbBVdK9unpytTDQVaAFZQOCB6AQAAEAgAnQEqFAAUAD6RQJhJpaOiISgKqLASCWwAnTKEeZ+Z8UG4b3S8Uuxj0APK49jD9jvRsJlHSAAk4peJdT29v1IEVadPwR6oAAD+BVzylNKb2DP80JoQLtKM1HYe/A2NwP2FBXtSNypNu+PttP+EadMJsrmm/ULTvb6jEqpziSt//sRMcbrAVYftaY1KNWWudr1AdlUv5D5HRoEfwcV0Pu9dhsXZ3ojpXwjGWWBJfv4puUOV9aczt7uvE8SHYSo33C18yNeqL9sZ211bKOY/rjT8Wzi9Wg+hj7Xvi/3NC1proBfzmpWysW6y3/63VcYMlVBx6v5o9WNvzL1XLvbR7wTooDXtSEjt6rJoaazbMoXie0mzg0G+evKLZ8vz/yKv/u4RDK0EF+ejNfOOU0ZhepG6b/Ewbk1BofcYZC8JB4a2NPUtwhHtqE3tVT8PlHEvlf+xYFbG7Wms4JVHiSMfc36K5LOwcwC89RYMLn0jFD1wQF2/QrJAAAAA" alt="本站已在粤网管局备案"/></a><a target="_blank" rel="noopener" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" title="本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可"><img src="https://npm.elemecdn.com/anzhiyu-blog@2.2.0/img/badge/Copyright-BY-NC-SA.svg" alt="本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可"/></a></div></div></footer></div><!-- 立即应用暗色模式，避免页面闪烁--><script>(function() {
+  // 检查本地存储中的暗色模式设置
+  const savedDarkMode = localStorage.getItem('darkMode') === 'true';
+  // 如果设置为暗色模式，立即应用到body
+  if (savedDarkMode) {
+    document.body.classList.add('dark-mode');
+  }
+
+  // 防止页面闪烁，在DOM加载完成前设置一个初始类
+  document.documentElement.style.visibility = 'hidden';
+  document.addEventListener('DOMContentLoaded', function() {
+    document.documentElement.style.visibility = 'visible';
+  });
+})();
+</script>
+<script src="/js/main.js"></script>
+
+<script src="/js/tags.js"></script>
+
+<script src="/js/categories-accordion.js"></script>
+
+<script src="/js/highlight.js"></script>
+
+<script src="/js/load-more.js"></script>
+
+<script src="/js/header-scroll.js"></script>
+
+<script src="/js/toc.js"></script>
+
+<script src="/js/image-zoom.js"></script>
+
+<script src="/js/share.js"></script>
+
+<script src="/js/search.js"></script>
+
+<script src="/js/hide-inline-interaction.js"></script>
+
+<script src="/js/hide-toggle-interaction.js"></script>
+
+<script src="/js/dark-mode-sync.js"></script>
+
+<script src="/js/animations.js"></script>
+
+<script src="/js/ai-theme.js"></script>
+
+<script src="/js/loading-animation.js"></script>
+
+<script src="/js/article-modal.js"></script>
+<script>window.theme = {
+  features: {"dark_mode":true,"smooth_scroll":true,"back_to_top":true,"loading_animation":true},
+  code_block: {"height_limit":200,"enable_folding":true,"max_height":"300px","show_lang":true},
+  ai_summary: {"enable":true,"api_key":"sk-01e62d5718594c0fab65cde1a69a7c20","summary_directly":false,"ai_name":"然-AI","ai_introduce":"我是文章辅助AI: 然-AI，一个基于deepseek的强大语言模型，有什么可以帮到您？😊","ai_version":"deepseekv3","buttons":["介绍自己","来点灵感","生成AI简介"]},
+  categories: {"layout":"accordion","accordion_animation":true,"show_empty_categories":true},
+  article_list: {"card_size":"normal","view_mode":"modal","load_more_mode":"scroll"}
+};
+</script><script src="/js/ai.js"></script><script src="/js/postai.js"></script></body></html>

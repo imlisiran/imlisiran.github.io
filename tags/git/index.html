@@ -1,0 +1,112 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta name="theme-color" content="#1a1a1a"><meta name="msapplication-navbutton-color" content="#1a1a1a"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><title>未来的回忆</title><script>(function() {
+  // 尽早应用暗色模式，防止闪烁
+  var savedDarkMode = localStorage.getItem('darkMode') === 'true';
+  if (savedDarkMode) {
+    document.documentElement.classList.add('dark-mode');
+  }
+})();
+</script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=Playfair+Display:wght@400;500;600;700&amp;family=Fira+Code:wght@400;500&amp;display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"><script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script><link rel="icon" href="/null">
+<link rel="stylesheet" href="/css/main.css">
+
+<link rel="stylesheet" href="/css/tags.css">
+
+<link rel="stylesheet" href="/css/categories.css">
+
+<link rel="stylesheet" href="/css/categories-accordion.css">
+
+<link rel="stylesheet" href="/css/highlight.css">
+
+<link rel="stylesheet" href="/css/toc.css">
+
+<link rel="stylesheet" href="/css/image-zoom.css">
+
+<link rel="stylesheet" href="/css/share.css">
+
+<link rel="stylesheet" href="/css/mobile-nav.css">
+
+<link rel="stylesheet" href="/css/search.css">
+
+<link rel="stylesheet" href="/css/scrollbar.css">
+
+<link rel="stylesheet" href="/css/timeline.css">
+
+<link rel="stylesheet" href="/css/animations.css">
+
+<link rel="stylesheet" href="/css/ai-theme.css">
+
+<link rel="stylesheet" href="/css/loading-animation.css">
+
+<link rel="stylesheet" href="/css/article-modal.css">
+<!-- 条件加载关于页面样式--><style>:root {
+  --primary-color: #1a1a1a;
+  --secondary-color: #666666;
+  --accent-color: #ff6b6b;
+  --background-color: #ffffff;
+  --text-color: #333333;
+  --overlay-color: rgba(0, 0, 0, 0.7);
+  --tag-background-color: #ffffff;
+  --card-background-color: #ffffff;
+}
+</style><link rel="stylesheet" href="https://cdn1.tianli0.top/gh/qxchuckle/Post-Summary-AI/chuckle-post-ai.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"><meta name="generator" content="Hexo 7.3.0"></head><body><div id="app"><header class="header navbar-bubble"><nav class="nav"><div class="nav-container"><div class="nav-logo"><a href="/"><span class="nav-title">未来的回忆</span></a></div><div class="nav-menu"><a class="nav-item" target="_blank" rel="noopener" href="https://img.2am.top">相册</a><a class="nav-item" href="/about/">关于</a><div class="nav-item has-submenu"><span class="nav-link">文章</span><div class="submenu"><a class="submenu-item" href="/archives/">归档</a><a class="submenu-item" href="/categories/">分类</a><a class="submenu-item" href="/tags/">标签</a></div></div><div class="nav-item has-submenu"><span class="nav-link">网站</span><div class="submenu"><a class="submenu-item" target="_blank" rel="noopener" href="https://class8.top">高中纪念站</a></div></div><a class="nav-item" href="/link/">友链</a><!-- 搜索按钮--><div class="search-toggle"><i class="fas fa-search"></i></div></div><div class="nav-toggle"><span></span><span></span><span></span></div></div></nav></header><div class="search-overlay"><div class="search-container"><div class="search-form"><input class="search-input" type="text" placeholder="搜索文章..."/><div class="search-close">×</div></div><div class="search-results"></div></div></div><main class="main"><div class="post-wrapper"><article class="post-container"><div class="post-header"><h1 class="post-title">Tags</h1><div class="post-subtitle">探索与 &quot;git&quot; 相关的所有文章</div></div><div class="tags-content"><!-- 显示特定标签的文章列表--><div class="tag-posts"><div class="tag-header"><div class="tag-info"><h2 class="tag-name"> <i class="fas fa-tag"></i> git</h2><div class="tag-description">共有 1 篇文章</div></div><div class="tag-back"><a href="/tags/"><i class="fas fa-arrow-left"></i> 返回所有标签</a></div></div><div class="post-list"><!-- 根据索引创建不同大小的卡片--><div class="post-item post-item--large"><div class="post-item-inner"><div class="post-item-title"><a href="/2022/08/26/%E4%B8%80%E4%B8%AAgit%E7%9A%84%E5%B0%8F%E9%97%AE%E9%A2%98/">一个git的小问题</a></div><div class="post-item-excerpt"><!-- 使用 strip_html 过滤器移除 HTML 标签后再截取文本--><p>最近在执行命令hexo d的时候，git老是报如下的错：
+
+而且每次推送完成之后，都发现github page里的自定义域名没了，要再填一遍，麻烦得很。后来问了开哥，解决方案如下：
+
+首先执行命令bush1git config --global core.autocrlf false
+将自动换行替换关掉（git有时会将linux的lf换行转换成windows的crl换行）然后看看github的根目录下有没有一个cname文件，没有的话创建一个，内容就是自己的域名。
+
+...</p></div><div class="post-item-meta"><div class="post-meta-left"><span class="post-date"><i class="far fa-calendar"></i> 2022-08-26</span></div><div class="post-meta-right"><a class="read-more" href="/2022/08/26/%E4%B8%80%E4%B8%AAgit%E7%9A%84%E5%B0%8F%E9%97%AE%E9%A2%98/">阅读全文 <i class="fas fa-arrow-right"></i></a></div></div></div></div></div><!-- Load More Button for Tag Page  --></div></div></article></div></main><footer class="footer"><div class="footer-bottom"><div class="footer-copyright">© 2025 李思然. All rights reserved.</div><!-- Footer centered image with link--><div class="footer-badges"><a target="_blank" rel="noopener" href="https://hexo.io/" title="博客框架为Hexo_v5.4.0"><img src="https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Frame-Hexo.svg" alt="博客框架为Hexo_v5.4.0"/></a><a target="_blank" rel="noopener" href="https://beian.miit.gov.cn/" title="本站已在粤网管局备案"><img src="https://img.shields.io/badge/粤ICP备-2022157092号-yellow.svg?logo=data:image/png;base64,UklGRjgCAABXRUJQVlA4WAoAAAAQAAAAEwAAEwAAQUxQSJgAAAABgKpt//nn+RvZ89KuNVcbR6C6pBNYW12zl61oO23Vtu2/v59TiIgJILircnOrKgLlzL4Pj8fj+RkuUTB7FE0hIuZVxs1B4r88yudxAakeYQIQsSiZiYVaj7ge2mS9cCbbgTfZIYzJmmFVtgQ/slsolaUB5Y9qtzkAmRdqN0EmPMKBAGvjq8pRnTYAbBVdK9unpytTDQVaAFZQOCB6AQAAEAgAnQEqFAAUAD6RQJhJpaOiISgKqLASCWwAnTKEeZ+Z8UG4b3S8Uuxj0APK49jD9jvRsJlHSAAk4peJdT29v1IEVadPwR6oAAD+BVzylNKb2DP80JoQLtKM1HYe/A2NwP2FBXtSNypNu+PttP+EadMJsrmm/ULTvb6jEqpziSt//sRMcbrAVYftaY1KNWWudr1AdlUv5D5HRoEfwcV0Pu9dhsXZ3ojpXwjGWWBJfv4puUOV9aczt7uvE8SHYSo33C18yNeqL9sZ211bKOY/rjT8Wzi9Wg+hj7Xvi/3NC1proBfzmpWysW6y3/63VcYMlVBx6v5o9WNvzL1XLvbR7wTooDXtSEjt6rJoaazbMoXie0mzg0G+evKLZ8vz/yKv/u4RDK0EF+ejNfOOU0ZhepG6b/Ewbk1BofcYZC8JB4a2NPUtwhHtqE3tVT8PlHEvlf+xYFbG7Wms4JVHiSMfc36K5LOwcwC89RYMLn0jFD1wQF2/QrJAAAAA" alt="本站已在粤网管局备案"/></a><a target="_blank" rel="noopener" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" title="本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可"><img src="https://npm.elemecdn.com/anzhiyu-blog@2.2.0/img/badge/Copyright-BY-NC-SA.svg" alt="本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可"/></a></div></div></footer></div><!-- 立即应用暗色模式，避免页面闪烁--><script>(function() {
+  // 检查本地存储中的暗色模式设置
+  const savedDarkMode = localStorage.getItem('darkMode') === 'true';
+  // 如果设置为暗色模式，立即应用到body
+  if (savedDarkMode) {
+    document.body.classList.add('dark-mode');
+  }
+
+  // 防止页面闪烁，在DOM加载完成前设置一个初始类
+  document.documentElement.style.visibility = 'hidden';
+  document.addEventListener('DOMContentLoaded', function() {
+    document.documentElement.style.visibility = 'visible';
+  });
+})();
+</script>
+<script src="/js/main.js"></script>
+
+<script src="/js/tags.js"></script>
+
+<script src="/js/categories-accordion.js"></script>
+
+<script src="/js/highlight.js"></script>
+
+<script src="/js/load-more.js"></script>
+
+<script src="/js/header-scroll.js"></script>
+
+<script src="/js/toc.js"></script>
+
+<script src="/js/image-zoom.js"></script>
+
+<script src="/js/share.js"></script>
+
+<script src="/js/search.js"></script>
+
+<script src="/js/hide-inline-interaction.js"></script>
+
+<script src="/js/hide-toggle-interaction.js"></script>
+
+<script src="/js/dark-mode-sync.js"></script>
+
+<script src="/js/animations.js"></script>
+
+<script src="/js/ai-theme.js"></script>
+
+<script src="/js/loading-animation.js"></script>
+
+<script src="/js/article-modal.js"></script>
+<script>window.theme = {
+  features: {"dark_mode":true,"smooth_scroll":true,"back_to_top":true,"loading_animation":true},
+  code_block: {"height_limit":200,"enable_folding":true,"max_height":"300px","show_lang":true},
+  ai_summary: {"enable":true,"api_key":"sk-01e62d5718594c0fab65cde1a69a7c20","summary_directly":false,"ai_name":"然-AI","ai_introduce":"我是文章辅助AI: 然-AI，一个基于deepseek的强大语言模型，有什么可以帮到您？😊","ai_version":"deepseekv3","buttons":["介绍自己","来点灵感","生成AI简介"]},
+  categories: {"layout":"accordion","accordion_animation":true,"show_empty_categories":true},
+  article_list: {"card_size":"normal","view_mode":"modal","load_more_mode":"scroll"}
+};
+</script><script src="/js/ai.js"></script><script src="/js/postai.js"></script></body></html>
