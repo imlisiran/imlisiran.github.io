@@ -17,7 +17,7 @@
     "core-js": "^3.23.3",
     "gulp": "^5.0.0",
     "hexo": "^7.2.0",
-    "hexo-bilibili-bangumi": "^1.8.9",
+    "hexo-bilibili-bangumi": "^2.1.9",
     "hexo-blog-encrypt": "^3.1.9",
     "hexo-butterfly-categories-card": "^1.0.0",
     "hexo-butterfly-envelope": "^1.0.15",
