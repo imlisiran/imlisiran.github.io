@@ -43,7 +43,7 @@
     "hexo-tag-dplayer": "^0.3.3",
     "hexo-tag-map": "^1.2.1",
     "hexo-theme-landscape": "^1.0.0",
-    "hexo-util": "^3.3.0",
+    "hexo-util": "^4.0.0",
     "hexo-wordcount": "^6.0.1",
     "live2d-widget-model-shizuku": "^1.0.5",
     "live2d-widget-model-wanko": "^1.0.5",
